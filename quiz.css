@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: darkmagenta;
+    min-height: 5rem;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: azure;
+}
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: azure;
+}
+.question-container{
+    font-size: 1.5rem;
+    padding: 1rem 0px 1rem 2rem;
+}
+.btn{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+label{
+    padding-right: 2rem;
+}
+button{
+    padding: 0.5rem;
+    font-size: 1.35rem;
+    border-radius: 10px;
+}
+button:hover{
+    background-color:aquamarine;
+}
+.space{
+    margin: 3rem;
+}
+.output{
+    text-align: center;
+}
